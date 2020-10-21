@@ -13,6 +13,7 @@ This app is designed to help a user create a professional README for a GitHub re
 
 * [license](#license)
 
+
 * [Contributing](#contributing)
 
 * [Tests](#tests)
@@ -24,20 +25,20 @@ This app is designed to help a user create a professional README for a GitHub re
 
 ## Installation
 
-This app requires that you install dependencies.  Here's what you need to know: 
+This app requires that you install dependencies.  Here's what you need to know:  
 
-This app uses Node.js as well as npm inquirer, npm fs, and npm path.  To install these files type in the console  npm i inquirer, npm i path, and npm i fs.  This will download all dependencies for the app. 
+This app uses Node.js as well as npm inquirer, npm fs, and npm path. To install these files type in the console npm i inquirer, npm i path, and npm i fs. This will download all dependencies for the app.
 
 ## Usage
 
-When the user runs node.js, they will be prompted with a series of questions that will create and fill out a professional README template.  This app is free to use for anyone who comes accross this repository. follow the link below for a full walkthrough video: https://www.youtube.com/watch?v=4yojpaghXH8 
+When the user runs node.js, they will be prompted with a series of questions that will create and fill out a professional README template. This app is free to use for anyone who comes accross this repository. follow the link below for a full walkthrough video: https://www.youtube.com/watch?v=TqvkT3xTTOY 
 
 ## License 
       This app is licensed under MIT.
 
 ## Contributors
 
- Nick Damario.
+ Nick Damario
 
  ## Tests
 
