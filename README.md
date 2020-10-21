@@ -7,13 +7,11 @@ This app is designed to help a user create a professional README for a GitHub re
 
 ## Table of Contents
 
-*[Installation](#installation)
+* [Installation](#installation)
 
 * [Usage](#usage)
 
-
 * [license](#license)
-
 
 * [Contributing](#contributing)
 
@@ -26,7 +24,7 @@ This app is designed to help a user create a professional README for a GitHub re
 
 ## Installation
 
-To install required dependencies, run this command:  
+This app requires that you install dependencies.  Here's what you need to know: 
 
 This app uses Node.js as well as npm inquirer, npm fs, and npm path.  To install these files type in the console  npm i inquirer, npm i path, and npm i fs.  This will download all dependencies for the app. 
 
