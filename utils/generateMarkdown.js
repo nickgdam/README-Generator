@@ -1,11 +1,11 @@
-function renderLicenseBadge(license) {
+const renderLicenseBadge = (license) => {
   if (license!=="None"){
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   else return ''
 }
 
-function renderLicenseLink (license) {
+const renderLicenseLink = (license) => {
   if (license!=="None") {
     return(
       `\n* [license](#license)\n`
@@ -14,7 +14,7 @@ function renderLicenseLink (license) {
   else return ''
 }
 
-function renderLicenseSection(license){
+const renderLicenseSection = (license) => {
   if (license !== "None") {
     return ( 
       `## License 
@@ -24,7 +24,7 @@ function renderLicenseSection(license){
   else return ''
 }
 // function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = (data) => {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
