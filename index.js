@@ -1,3 +1,4 @@
+// required installs
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
@@ -58,12 +59,12 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
     return fs.writeFileSync(path.join(process.cwd(), fileName),data);
 }
 
 // function to initialize program
-function init() {
+const init = () => {
     inquirer.prompt(questions)
     .then((inquirerResponses)=> {
         console.log("Creating your README.md");
