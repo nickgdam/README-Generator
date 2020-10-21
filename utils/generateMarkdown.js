@@ -34,10 +34,9 @@ ${data.description}
 
 ## Table of Contents
 
-*[Installation](#installation)
+* [Installation](#installation)
 
 * [Usage](#usage)
-
 ${renderLicenseLink(data.license)}
 
 * [Contributing](#contributing)
@@ -51,7 +50,7 @@ ${renderLicenseLink(data.license)}
 
 ## Installation
 
-To install required dependencies, run this command:  
+This app requires that you install dependencies.  Here's what you need to know:  
 
 ${data.installation}
 
